@@ -1,0 +1,23 @@
+1. Header (Đầu trang)
+2. Navigation (Điều hướng)
+3. Banner
+4. Breadcrumb (Vị trí hiện tại trong trang web)
+5. Sidebar
+6. Slider
+7. Content
+8.Footer (Chân trang)
+
+Vị trí
+Kích thước
+Màu sắc
+Kiểu dáng
+
+Phân tích website TheBand
+1. Header
+2. Slider
+3. Content
+    3.1 About
+    3.2 Tour
+    3.3 Contract
+    3.4 Image
+4. Footer
