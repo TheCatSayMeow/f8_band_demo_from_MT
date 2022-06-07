@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/boxShadow.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
     <title>Document</title>
 </head>
 <body>
     <div id="main">
         <div id="header">
-            <ul id="nav">
+            <!-- Begin navigation -->
+            <ul id="nav" >
                 <li><a href="">Home</a></li>
                 <li><a href="">Ban</a></li>
                 <li><a href="">tour</a></li>
                 <li><a href="">contact</a></li>
                 <li>
-                    <a href="">Mỏe</a>
-                    <ul class="subnav">
+                    <a href="">Mỏe
+                        <i class="ti-icons ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav box-Shadow" >
                         <li><a href="">Merchandisa
                             </a></li>
                         <li><a href="">Extras</a></li>
@@ -25,8 +30,14 @@
                     </ul>
                 </li>
             </ul>
-        </div>
+            <!-- End navigation -->
 
+            <!-- Begin Search button -->
+            <div class="search-btn">
+                <i class="ti-icons ti-search"></i>
+            </div>
+            <!-- End Search icon -->
+        </div>
         <div id="slider"></div>
 
         <div id="content"></div>

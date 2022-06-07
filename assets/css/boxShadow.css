@@ -1,0 +1,10 @@
+.box-Shadow::before {
+    position: absolute;
+    content: '';
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, red, green, blue);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+}
